@@ -1,47 +1,14 @@
-![Netlify examples](netlify-badge-examples.png)
+NeXgen - Kontakt body { margin: 0; font-family: Arial, sans-serif; background-color: #0d1b2a; color: #e0e1dd; } header { background-color: #1b263b; padding: 20px; text-align: center; } header img { max-width: 200px; } main { padding: 40px; max-width: 800px; margin: 0 auto; } section { margin-bottom: 40px; } h2 { border-bottom: 2px solid #415a77; padding-bottom: 10px; } .contact-info { font-size: 1.2em; } .contact-info p { margin: 10px 0; } .audio-player { margin-top: 10px; } O NeXgenu 
+<section>
+  <h2>Kontakty</h2>
+  <div class="contact-info">
+    <p><strong>Operátor 1:</strong> +420 230 254</p>
+    <p><strong>Operátor 2:</strong> +420 705 922 854</p>
+  </div>
+  <div class="audio-player">
+    <audio controls>
+      <source src="waiting-music.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
-# Netlify Feature Tour
-
-**Access this demo site**: https://feature-tour.netlify.app
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fad6792e-1c44-44db-bd79-ea74b42b0f89/deploy-status)](https://app.netlify.com/sites/feature-tour/deploys)
-
-## About this example site
-
-This site provides a path to get started learning about Netlify features.
-
-- 📚 [Docs Getting Started Tutorial](https://docs.netlify.com/get-started/?utm_medium=social&utm_source=github&utm_campaign=devex-ph&utm_content=devex-examples)
-
-## Speedily deploy your own version
-
-Deploy your own version of this example site by selecting the Deploy to Netlify Button below. This will automatically:
-
-- Clone a copy of this repo to your own GitHub account
-- Create a new project in your [Netlify account](https://app.netlify.com/?utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples), linked to your new repo
-- Create an automated deployment pipeline to watch for changes on your repo
-- Build and deploy your new site
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
-
-## Install and run this example locally
-
-You can clone this example repo to explore its features and implementation and to run it locally.
-
-```shell
-
-# 1. Clone the repository to your local development environment
-git clone git@github.com:netlify/feature-tour.git
-
-# 2. Move into the project directory
-cd feature-tour
-
-# 3. Install code dependencies
-npm install
-
-# 4. Install the Netlify CLI to let you locally serve your site using Netlify's features
-npm install -g netlify-cli
-
-# 5. Serve your site using Netlify Dev
-netlify dev
-
-```
+  <h3>Rychl
